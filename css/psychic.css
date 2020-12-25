@@ -1,4 +1,4 @@
-/* 20201204 Ason */
+/* 20201225 Ason */
 /* common */
 html {
     scroll-behavior: smooth;
@@ -237,7 +237,7 @@ header {
 }
 
 /* qrcode */
-.qrcode-line, .qrcode-telegram, .qrcode-instagram, .qrcode-wujichinglung {
+.qrcode-line, .qrcode-telegram, .qrcode-instagram, .qrcode-wujihlk {
     display: inline-block;
     width: 50px;
     height: 50px;
