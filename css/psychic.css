@@ -414,6 +414,9 @@ header {
     .offcial-website {
         margin: 20px auto 10px; 
     }
+    .icon-ecpay {
+        margin-top: 40px;
+    }
 }
 
 @media only screen and (max-width: 320px) {
