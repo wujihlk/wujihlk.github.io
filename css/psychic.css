@@ -122,15 +122,18 @@ header {
 /* 報名資料關閉按鈕  結束*/
 
 /* 斗內支付方式 開始 */
-.icon-ecpay {
+.icon-donate {
     display: block;
     width: 80px;
     height: 80px;
     filter: drop-shadow(0 0 5px #333);
     margin: 0 auto 20px;
 }
-.icon-ecpay img {
+.icon-donate img {
     width: 100%;
+}
+.first-donate {
+    margin-top: 40px;
 }
 /* 斗內支付方式 結束 */
 
@@ -202,8 +205,17 @@ header {
     margin-top: 15px;
     margin-bottom: 0px;
 }
-.atm li {
+.donate {
+    margin-bottom: 50px;
+}
+.donate li {
     margin-right: 20px;
+}
+.fa-donate {
+    font-size: 76px;
+    /* color: #b2b2b2; */
+    /* filter: drop-shadow(0 0 5px #333); */
+    margin-bottom: 20px;
 }
 .logo-line, .logo-telegram, .logo-instagram  {
     width: 80px;
@@ -346,7 +358,7 @@ header {
    h4 {
         width: 20%;
     }
-    .atm li {
+    .donate li {
         margin-right: 10px;
     }
     .about-pic-1 {
@@ -406,14 +418,14 @@ header {
         padding-right: 24px !important;
         padding-left: 24px !important;
     }
-    .atm {
+    .donate {
         padding-right: 36px !important;
         padding-left: 36px !important;
     }
     .offcial-website {
         margin: 20px auto 10px; 
     }
-    .icon-ecpay {
+    .icon-donate {
         margin-top: 40px;
     }
 }
