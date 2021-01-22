@@ -127,7 +127,7 @@ header {
     width: 80px;
     height: 80px;
     filter: drop-shadow(0 0 5px #333);
-    margin: 0 auto 20px;
+    margin: 0 auto 10px;
 }
 .icon-donate img {
     width: 100%;
@@ -215,7 +215,7 @@ header {
     font-size: 76px;
     /* color: #b2b2b2; */
     /* filter: drop-shadow(0 0 5px #333); */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .logo-line, .logo-telegram, .logo-instagram  {
     width: 80px;
