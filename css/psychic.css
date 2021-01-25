@@ -275,7 +275,10 @@ header {
 
 /* note */
 .note {
+    width: 20%;
+    text-align: left;
     list-style: square;
+    margin: auto;
 }
 .note li {
     font-size: 0.8rem;
@@ -348,14 +351,24 @@ header {
   }
 
 /* rwd */
+@media only screen and (max-width: 1440px) {
+    .note {
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .note {
+        width: 50%;
+    }
+}
 @media only screen and (max-width: 991px) {
-   /* html {
-       scroll-behavior: auto;
+    /* html {
+        scroll-behavior: auto;
     } */
-   h3 {
-       width: 40%;
+    h3 {
+        width: 40%;
     } 
-   h4 {
+    h4 {
         width: 20%;
     }
     .donate li {
@@ -363,6 +376,9 @@ header {
     }
     .about-pic-1 {
         width: 33.33%;
+    }
+    .note {
+        width: 60%;
     }
 }
 
@@ -400,6 +416,7 @@ header {
     font-size: 1.3rem;
     }
     .note {
+        width: 100%;
         padding-left: 60px;
         padding-right: 30px;
     }
