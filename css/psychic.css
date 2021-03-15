@@ -186,6 +186,13 @@ header {
     list-style: none;
     padding-left: 0;
 }
+.fill-data-link .disable {
+    color: gray;
+}
+.fill-data-link .disable:hover {
+    text-decoration: none;
+    cursor: default;
+}
 .fill-data-link li {
     float: left;
     margin-top: 5px;
