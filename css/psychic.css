@@ -186,10 +186,10 @@ header {
     list-style: none;
     padding-left: 0;
 }
-.fill-data-link .disable {
+.fill-data-link .disable a {
     color: gray;
 }
-.fill-data-link .disable:hover {
+.fill-data-link .disable a:hover {
     text-decoration: none;
     cursor: default;
 }
@@ -201,6 +201,9 @@ header {
 .fill-data-link li i {
     color: #900;
     font-style: normal;
+}
+.fill-data-link .disable i {
+    color: #6c757d;
 }
 .go-fill-data {
     display: inline-block;
