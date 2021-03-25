@@ -258,6 +258,17 @@ header {
     animation-name: example;
     animation-duration: 1s;
 }
+.query-form-google {
+    width:640px;
+    height: 80%;
+    position: relative;  
+}
+.query-form-google iframe {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding-top: 20px;
+}
 @keyframes example {
     from {opacity: 0;}
     to {opacity: 1;}
@@ -436,6 +447,10 @@ header {
     .query-form {
         margin: 0 15px;
         padding: 15px 30px;
+    }
+    .query-form-google {
+        width: 90%;
+        height: 70%;
     }
     .btn-close:link {
         top: -55px;
